@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="FindPItotheNthDigit/FindPItotheNthDigit.csproj">
+﻿<Properties StartupItem="NextPrimeNumber/NextPrimeNumber.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="FindPItotheNthDigit/Program.cs">
     <Files>
