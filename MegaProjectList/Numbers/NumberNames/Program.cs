@@ -23,12 +23,7 @@ namespace NumberNames
 
 			Console.Write (output);
 
-			if (inputnumber / 100 > 0)
-				Console.Write (GetNameOfDigit (inputnumber / 100) + "hundred");
-
-			inputnumber = inputnumber - (inputnumber / 100) * 100;
-			
-			Console.Write (GetNameOf2DigitNumber (inputnumber));
+			Console.Write (SolveFor(inputnumber, 1, ""));
 
 		}
 
@@ -36,7 +31,8 @@ namespace NumberNames
 		{
 			string returnstring = "";
 
-			returnstring += (GetNameOf2DigitNumber (inputnumber / count));
+			returnstring += (GetNameOf2DigitNumber ((inputnumber -
+				inputnumber /(count*100) * 100) / count));
 
 			if (inputnumber / (count * 100) > 0) {
 				returnstring = (GetNameOf2DigitNumber (inputnumber / (count * 100))
@@ -48,7 +44,7 @@ namespace NumberNames
 
 		public static string GetNameOf2DigitNumber (int number)
 		{ 
-			if (number >= 100)
+			if (number >=100)
 				return "";
 			
 			switch (number) {
