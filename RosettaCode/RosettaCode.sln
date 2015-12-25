@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "99BottlesOfBeer", "99Bottle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A+B", "A+B\A+B.csproj", "{5C028857-2922-423B-8720-04D8A0444EC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayLength", "ArrayLength\ArrayLength.csproj", "{5C311F70-B501-433D-AEBF-215C537BDF8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -21,6 +23,10 @@ Global
 		{5C028857-2922-423B-8720-04D8A0444EC1}.Debug|x86.Build.0 = Debug|x86
 		{5C028857-2922-423B-8720-04D8A0444EC1}.Release|x86.ActiveCfg = Release|x86
 		{5C028857-2922-423B-8720-04D8A0444EC1}.Release|x86.Build.0 = Release|x86
+		{5C311F70-B501-433D-AEBF-215C537BDF8B}.Debug|x86.ActiveCfg = Debug|x86
+		{5C311F70-B501-433D-AEBF-215C537BDF8B}.Debug|x86.Build.0 = Debug|x86
+		{5C311F70-B501-433D-AEBF-215C537BDF8B}.Release|x86.ActiveCfg = Release|x86
+		{5C311F70-B501-433D-AEBF-215C537BDF8B}.Release|x86.Build.0 = Release|x86
 		{AF253894-C6C6-44F9-8750-79360DBE7C02}.Debug|x86.ActiveCfg = Debug|x86
 		{AF253894-C6C6-44F9-8750-79360DBE7C02}.Debug|x86.Build.0 = Debug|x86
 		{AF253894-C6C6-44F9-8750-79360DBE7C02}.Release|x86.ActiveCfg = Release|x86
