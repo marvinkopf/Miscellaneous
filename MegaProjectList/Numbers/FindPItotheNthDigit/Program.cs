@@ -68,12 +68,13 @@ namespace FindPItotheNthDigit
 
 			Console.Write("\n\n");
 
-			// output matrix
-//			for(int i = 0; i < result.GetLength(0);i++) {
-//				for(int j = 0; j < result.GetLength(1);j++)
-//					Console.Write(result[i,j] + "\t");
-//				Console.Write("\n");
-//			}
+			#if DEBUG
+			for(int i = 0; i < result.GetLength(0);i++) {
+					for(int j = 0; j < result.GetLength(1);j++)
+					Console.Write(result[i,j] + "\t");
+				Console.Write("\n");
+			}
+			#endif
 		}
 			
 		public static bool IsOdd(int number) {
