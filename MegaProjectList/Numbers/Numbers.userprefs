@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="FindPItotheNthDigit/FindPItotheNthDigit.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FindPItotheNthDigit/Program.cs">
+    <Files>
+      <File FileName="FindPItotheNthDigit/Program.cs" Line="83" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
