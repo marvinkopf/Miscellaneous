@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MegaProjectList/Numbers/NumberNames/Program.cs">
+    <Files>
+      <File FileName="MegaProjectList/Numbers/NextPrimeNumber/Program.cs" Line="23" Column="5" />
+      <File FileName="MegaProjectList/Numbers/NumberNames/Program.cs" Line="14" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
