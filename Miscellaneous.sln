@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestMultiple", "Smalles
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumSquareDifference", "SumSquareDifference\SumSquareDifference.csproj", "{F867BF05-5B02-4A21-80B8-C6304D710A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1001stPrime", "1001stPrime\1001stPrime.csproj", "{19585FAE-9B15-4816-8132-96C139B322DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -49,6 +51,10 @@ Global
 		{172D63FF-65D5-4437-960A-E6A77BEC96E6}.Debug|x86.Build.0 = Debug|x86
 		{172D63FF-65D5-4437-960A-E6A77BEC96E6}.Release|x86.ActiveCfg = Release|x86
 		{172D63FF-65D5-4437-960A-E6A77BEC96E6}.Release|x86.Build.0 = Release|x86
+		{19585FAE-9B15-4816-8132-96C139B322DA}.Debug|x86.ActiveCfg = Debug|x86
+		{19585FAE-9B15-4816-8132-96C139B322DA}.Debug|x86.Build.0 = Debug|x86
+		{19585FAE-9B15-4816-8132-96C139B322DA}.Release|x86.ActiveCfg = Release|x86
+		{19585FAE-9B15-4816-8132-96C139B322DA}.Release|x86.Build.0 = Release|x86
 		{1A0F1659-6C0C-497F-B2C2-10867FBA69C5}.Debug|x86.ActiveCfg = Debug|x86
 		{1A0F1659-6C0C-497F-B2C2-10867FBA69C5}.Debug|x86.Build.0 = Debug|x86
 		{1A0F1659-6C0C-497F-B2C2-10867FBA69C5}.Release|x86.ActiveCfg = Release|x86
