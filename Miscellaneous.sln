@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LargestPalindromeProduct", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallestMultiple", "SmallestMultiple\SmallestMultiple.csproj", "{C26B8B81-93F1-4B07-89BE-E4AD58857EDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumSquareDifference", "SumSquareDifference\SumSquareDifference.csproj", "{F867BF05-5B02-4A21-80B8-C6304D710A14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -103,5 +105,9 @@ Global
 		{F249CDE9-D8FF-4641-8D03-4755C6C94621}.Debug|x86.Build.0 = Debug|x86
 		{F249CDE9-D8FF-4641-8D03-4755C6C94621}.Release|x86.ActiveCfg = Release|x86
 		{F249CDE9-D8FF-4641-8D03-4755C6C94621}.Release|x86.Build.0 = Release|x86
+		{F867BF05-5B02-4A21-80B8-C6304D710A14}.Debug|x86.ActiveCfg = Debug|x86
+		{F867BF05-5B02-4A21-80B8-C6304D710A14}.Debug|x86.Build.0 = Debug|x86
+		{F867BF05-5B02-4A21-80B8-C6304D710A14}.Release|x86.ActiveCfg = Release|x86
+		{F867BF05-5B02-4A21-80B8-C6304D710A14}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
