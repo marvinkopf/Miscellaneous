@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="LargestPrimeFactor/LargestPrimeFactor.csproj">
+﻿<Properties StartupItem="LargestPalindromeProduct/LargestPalindromeProduct.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
