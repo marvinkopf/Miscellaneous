@@ -6,7 +6,7 @@ namespace StringIterator
 	{
 		public static void Main (string[] args)
 		{
-			string s = "Hello World! .";
+			string s = " ";
 			StringIterator si = new StringIterator(s);
 			Console.WriteLine (si.HasNext());
 			Console.WriteLine (si.Next());
@@ -19,22 +19,45 @@ namespace StringIterator
 
 	class StringIterator {
 		public StringIterator(string s) {
-			wordCollection = s.Split(' '); 
+			_input = s; 
+
+			for(int i = 0; i < _input.Length; i++) 
+				if(!_input[i].Equals(' ')) {
+					_pointer = i; 
+					break;
+				}
+			
 		}
 
-		private int pointer = 0; 
-		private string[] wordCollection; 
+		private int _pointer = 0; 
+		private string _input;
 
 		public bool HasNext() {
-			if(pointer == wordCollection.Length)
-				return false;
-
-			return true;
+			for(int i = _pointer; i < _input.Length; i++)
+				if(_input[i] != ' ') 
+					return true;
+			return false;
 		}
 
 		public string Next() {
-			pointer++;
-			return wordCollection[pointer - 1];
+			if(!HasNext())
+				throw new Exception();
+
+			while(_input[_pointer].Equals(' '))
+				_pointer++; 
+
+			string next = "";
+
+			while(_pointer < _input.Length) {
+				if(_input[_pointer].Equals(' '))
+					break; 
+				
+				next += _input[_pointer];
+
+				_pointer++;
+			}
+
+			return next; 
 		}
 	}
 }
