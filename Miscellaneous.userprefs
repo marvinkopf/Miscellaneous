@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="EvenFibonacciNumbers/EvenFibonacciNumbers.csproj">
+﻿<Properties StartupItem="LargestPrimeFactor/LargestPrimeFactor.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
   <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
