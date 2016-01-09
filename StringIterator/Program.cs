@@ -6,7 +6,7 @@ namespace StringIterator
 	{
 		public static void Main (string[] args)
 		{
-			string s = " ";
+			string s = "Hello World! .";
 			StringIterator si = new StringIterator(s);
 			Console.WriteLine (si.HasNext());
 			Console.WriteLine (si.Next());
