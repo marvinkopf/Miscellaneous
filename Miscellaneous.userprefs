@@ -1,6 +1,10 @@
-﻿<Properties StartupItem="StringIterator/StringIterator.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|x86" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupItem="NumberNames/NumberNames.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="NumberNames/Program.cs">
+    <Files>
+      <File FileName="NumberNames/Program.cs" Line="45" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
